@@ -2,18 +2,18 @@
 
 
 一.分工情况：
+  
+1.朱家翔  首页  （index.html      style-index.css     vip-index.js）
 
-1.朱家翔  首页  （index.html  style-index.css vip-index.js）
+2.赵永刚  爱丽奢  （lux.html      style-lux.css     vip-lux.js）
 
-2.赵永刚  爱丽奢  （lux.html  style-lux.css vip-lux.js）
+3.马瑞肖  分类  （type.html      style-type.css     vip-type.js）
 
-3.马瑞肖  分类  （type.html  style-type.css vip-type.js）
+4.田琛    品牌  （label.html      style-label.css     vip-label.js）
 
-4.田琛    品牌  （label.html  style-label.css vip-label.js）
+5.王建琼  小人 登录 注册  （my.html      style-my.css     vip-my.js）
 
-5.王建琼  小人 登录 注册  （my.html  style-my.css vip-my.js）
-
-6.牛嘉乐  购物车  （car.html  style-car.css vip-car.js）
+6.牛嘉乐  购物车  （car.html      style-car.css     vip-car.js）
 
 
 二.进度规划：

@@ -2,9 +2,224 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>个人中心</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./flow.css"/>
 </head>
-<body>
 
+<body>
+<!--头部-->
+<div class="my-info">
+    <!-- 头部上-->
+  <div class="my-info-header">
+       <div class="my-info-header-left">
+           <a href="javascript:;" class="ui-back-to-prev">
+               <span class="chevron-left"></span>
+           </a>
+       </div>
+      <div class="my-info-header-right">
+          <a href="javascript:;" class="ui-home-to-prev">
+              <span class="chevron-home"></span>
+          </a>
+      </div>
+  </div>
+    <!-- 登录/注册-->
+    <div class="my-no-login">
+        <a href="login.html" class="my-login js-register">注 册</a>
+        <i class="border-l"></i>
+        <a href="login.html" class="my-login js-register">登 录</a>
+    </div>
+</div>
+
+<!--支付部分-->
+<div class="user-order">
+    <a href="javascript:;" class="item-pay">
+        <p class="order-icon">
+            <span class="pay-radious">
+                <i class="icon-pay"></i>
+            </span>
+        </p>
+        <p class="order-pay">待付款</p>
+    </a>
+    <a href="javascript:;" class="item-pay item-deliver">
+        <p class="order-icon">
+            <span class="pay-radious">
+                <i class="icon-deliver"></i>
+            </span>
+        </p>
+        <p class="order-pay">待收货</p>
+    </a>
+    <a href="javascript:;" class="item-orders item-pay">
+        <p class="order-icon">
+            <span class="pay-radious">
+                <i class="icon-orders"></i>
+            </span>
+        </p>
+        <p class="order-pay">更多订单</p>
+    </a>
+</div>
+
+<!--主体区-->
+<ul class="my-main-menus">
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">我的收藏</p>
+                <span class="item-right"></span>
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">购物车历史</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">浏览历史</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">自助退货</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">零钱</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">优惠券</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">我的唯品币</p>
+                <span class="item-right highlight">手机绑定，资金更安全</span>
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">收货地址</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">修改登录密码</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">管理支付密码</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">绑定手机</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">支付红包</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">实名认证</p>
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+    <li class="list-item more item-last">
+        <a href="javascript:;" class="item-content">
+            <div class="item-inner">
+                <p class="item-title">我的银行卡</p>
+
+            </div>
+            <i class="icon-next"></i>
+        </a>
+    </li>
+</ul>
+
+<!--脚部区-->
+
+<div class="my-footer-download">
+    <a href="javascript:;" class="footer-download">
+        <div class="download-text">
+            <span class="logo-bg"></span>
+            <p class="download-content">唯品会客户端，特卖抢不停</p>
+        </div>
+        <div class="download-btn">
+            <span class="download">下载</span>
+        </div>
+    </a>
+</div>
+<div class="my-page-footer">
+    <div class="my-footer-nav">
+        <a href="javascript:;" class="my_index_html">唯品会首页</a>
+        <a href="javascript:;" class="my_about_our">关于我们</a>
+        <a href="javascript:;" class="my_login_html">登录</a>
+        <a href="javascript:;" class="my_register_html">注册</a>
+    </div>
+    <p class="my-footer-content">
+        Copyright © 2008-2017 m.vip.com, All Rights Reserved 粤ICP备08114786号
+    </p>
+    <div class="my-psb">
+        <a href="javascript:;" class="my-psb-content">
+            <img src="../src/img/img-my/icon-psb.png" alt="" class="my-psb-content-img"/>
+            <p class="my-psb-text">
+                粤公网安备 44010302000068号
+            </p>
+        </a>
+    </div>
+</div>
 </body>
 </html>

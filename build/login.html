@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>登录页面</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./flow.css"/>
+</head>
+<body>
+<!--登录头部-->
+   <div class="login_header">
+        <div class="icon-login-logo"></div>
+        <a href="my.html" class="close-in"></a>
+   </div>
+<!--登录主体-->
+   <div class="login-ui-form">
+       <div class="login-ui-form-item">
+           <label for="mobile" class="telnumber">手机号</label>
+           <input type="tel" id="mobile" placeholder="请输入手机号" class="write-numer" maxlength="11"/>
+           <span class="prompt_phone"></span>
+       </div>
+       <div class="login-ui-form-code">
+           <label for="code" class="codenumber">验证码</label>
+           <input type="text" id="code" placeholder="请输入验证码" class="write-code"/>
+           <button class="get-code">获取验证码</button>
+       </div>
+       <div class="login-my-submit">
+           <a href="javascript:;" class="login-my-submit-tel">手机号注册登录</a>
+           <p class="viva-footer-tips">
+               若您输入的手机号未注册，将会进入注册流程。注册即视为同意 <a href="vip-service.html" class="my-service-vip">唯品会服务条款</a>
+           </p>
+       </div>
+   </div>
+<!--登录脚部-->
+   <div class="login-login-footer">
+       <i class="login-password-or">或</i>
+       <a href="javascript:;" class="login-bypassword">密码登录</a>
+   </div>
+<script type="text/javascript" src="./finally.js"></script>
+</body>
+</html>

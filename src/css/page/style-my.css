@@ -1,0 +1,380 @@
+@import "../lib/reset.css";
+/*个人头部*/
+.my-info{
+    background:url("../../img/img-my/user-non-login-bg.png") 0 0 no-repeat;
+    width: 100%;
+    height:205px;
+    border-bottom: 1px solid #ebebec;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.my-info .my-info-header
+{
+    width:100%;
+    height:44px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    line-height: 44px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.my-info .my-info-header .my-info-header-left
+{
+    height:100%;
+    float:left;
+}
+.my-info .my-info-header .my-info-header-left .ui-back-to-prev
+{
+    padding:0 5px;
+    color:#222;
+    font-size: 26px;
+}
+.my-info .my-info-header .my-info-header-left .ui-back-to-prev .chevron-left
+{
+    width:10px;
+    height:20px;
+    display: inline-block;
+    background: url("../../img/img-my/icon_back.png") no-repeat left;
+    background-size: cover;
+}
+.my-info .my-info-header .my-info-header-right
+{
+    height:100%;
+    float:right;
+}
+
+.my-info .my-info-header .my-info-header-right .ui-home-to-prev
+{
+    padding:0 5px;
+    color:#222;
+    font-size: 26px;
+}
+
+.my-info .my-info-header .my-info-header-right .ui-home-to-prev .chevron-home{
+    width:24px;
+    height:20px;
+    display: inline-block;
+    background: url("../../img/img-my/icon_home.png") no-repeat left;
+    background-size: cover;
+}
+
+
+.my-info .my-no-login
+{
+  position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 14px;
+}
+.my-info .my-no-login a{
+    display: inline-block;
+    line-height: 14px;
+    color:#555;
+}
+.border-l{
+    margin:0 22px;
+    border-left: 1px solid #ccc;
+}
+
+
+/*支付部分*/
+
+.user-order
+{
+    width:100%;
+    height:82px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    background-color: #fff;
+    z-index: 1;
+}
+.user-order a{
+    flex: 1;
+    position: relative;
+}
+.user-order .item-pay{
+    font-size: 14px;
+    display: block;
+    color:#555;
+}
+.user-order .item-pay .order-icon
+{
+    position: relative;
+    padding-top: 12px;
+    margin-bottom: 7px;
+    height: 50%;
+    line-height: 200%;
+    color: #585c64;
+    text-align: center;
+}
+.user-order .item-pay .order-icon .pay-radious
+{
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background-color: #fcf9f1;
+    border-radius: 50%;
+}
+.user-order .item-pay .order-icon .pay-radious .icon-pay
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:16px;
+    width:20px;
+    height:16px;
+    display: block;
+    background: url("../../img/img-my/icon_pay.png") no-repeat;
+    background-size: cover;
+}
+
+.user-order .item-pay .order-pay
+{
+    text-align: center;
+    font-size: 12px;
+}
+
+.item-deliver .order-icon .pay-radious .icon-deliver
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:16px;
+    width:20px;
+    height:17px;
+    display: block;
+    background: url("../../img/img-my/icon_deliver.png") no-repeat;
+    background-size: cover
+}
+
+.item-orders .order-icon .pay-radious .icon-orders
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:16px;
+    width:20px;
+    height:17px;
+    display: block;
+    background: url("../../img/img-my/icon_orders.png") no-repeat;
+    background-size: cover
+}
+
+.my-main-menus
+{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    margin:20px 0;
+    width:100%;
+    height:auto;
+    padding-left:15px;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 1;
+}
+.my-main-menus .list-item
+{
+    border-bottom:1px solid #ccc;
+    position: relative;
+}
+.my-main-menus .item-last
+{
+    border-bottom: none;
+}
+.my-main-menus .list-item .item-content
+{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.my-main-menus .list-item .item-content .item-inner
+{
+    padding:15px 50px 15px 0;
+    box-sizing: border-box;
+}
+
+.my-main-menus .list-item .item-content .item-inner .item-title
+{
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    color:#555;
+}
+.my-main-menus .list-item .item-content .item-inner .item-right
+{
+    width: 40px;
+    height: 19px;
+    display:inline-block;
+    background: url("../../img/img-my/new.png") no-repeat;
+    background-size: cover;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: 10px;
+    position: absolute;
+    right:35px;
+    bottom:15px;
+}
+
+.my-main-menus .list-item .item-content .item-inner .highlight
+{
+    background: none;
+    position: absolute;
+    right:35px;
+    width:auto;
+    height:auto;
+    font-size: 14px;
+    color:#e80080;
+}
+
+.my-main-menus .list-item .item-content .icon-next
+{
+    position: absolute;
+    right:15px;
+    width:10px;
+    height:16px;
+    display: inline-block;
+    background: url("../../img/img-my/icon_next.png") no-repeat;
+    background-size: cover;
+}
+
+/*脚部区*/
+.my-footer-download
+{
+    width:100%;
+    height:auto;
+    background-color: #f3f4f5;
+    border-bottom:1px solid #d8d9d9;
+    z-index: 1;
+}
+.my-footer-download .footer-download
+{
+    padding: 10px 15px;
+    height: 42px;
+    position: relative;
+    display: block;
+}
+.my-footer-download .footer-download .download-text
+{
+    line-height: 1.12rem;
+    position: absolute;
+    top: 10px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+.my-footer-download .footer-download .download-text .logo-bg
+{
+    float: left;
+    margin-right:10px;
+    width:42px;
+    height:42px;
+    display: inline-block;
+    background: url("../../img/img-my/wei_logo.png");
+    background-size: cover;
+}
+.my-footer-download .footer-download .download-text .download-content
+{
+    color: #222;
+    font-size:14px;
+    max-width: 100%;
+    overflow: hidden;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 42px;
+}
+.my-footer-download .footer-download .download-btn
+{
+    margin-top: 6px;
+    float: right;
+    color: #cf3e8e;
+    padding: 0 22px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #cf3e8e;
+    position: relative;
+    border-radius: 2px;
+    background-color: #f3f4f5;
+}
+
+.my-page-footer
+{
+    width:100%;
+    background-color: #f3f4f5;
+
+}
+.my-page-footer .my-footer-nav
+{
+    padding:5px 12px 0 12px;
+    box-sizing: border-box;
+    text-align: right;
+}
+.my-page-footer .my-footer-nav a
+{
+    color:#585c64;
+    padding:0 3px;
+    font-size: 14px;
+}
+.my-page-footer .my-footer-nav .my_index_html
+{
+    float:left;
+}
+.my-page-footer .my-footer-nav .my_about_our
+{
+    float: left;
+    margin-left:5px;
+}
+.my-page-footer .my-footer-nav .my_login_html
+{
+    padding:0 5px;
+    background: url("../../img/img-my/backgoundr-img.png") no-repeat right;
+}
+.my-page-footer .my-footer-content
+{
+    font-size:12px;
+    color: #ccc;
+    text-align: center;
+    line-height:20px;
+    padding: 15px 20px;
+}
+.my-page-footer .my-psb
+{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.my-page-footer .my-psb .my-psb-content
+{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.my-page-footer .my-psb .my-psb-content .my-psb-content-img
+{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.my-page-footer .my-psb .my-psb-content .my-psb-text
+{
+    float: left;
+    margin: 0 0 0 5px;
+    color: #ccc;
+}
+
+/*===================登录/注册页面===============*/

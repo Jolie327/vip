@@ -1,0 +1,250 @@
+@import "../lib/reset.css";
+.login_header
+{
+    background: #f6f6f6 url("../../img/img-my/login_bg.png") no-repeat 0 0;
+    height: 170px;
+    position: relative;
+    text-align: center;
+}
+.login_header .icon-login-logo
+{
+    width: 125px;
+    height: 50px;
+    background: url("../../img/img-my/newlogo.png") no-repeat 0 0;
+    background-size: 100% auto;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.login_header .close-in
+{
+    position: absolute;
+    right:10px;
+    top:10px;
+    background: url("../../img/img-my/close-in.png") no-repeat;
+    width:20px;
+    height:20px;
+}
+
+.login-ui-form
+{
+    width:100%;
+    height:auto;
+}
+.login-ui-form .login-ui-form-item
+{
+    height: 52px;
+    background: #fff;
+    position: relative;
+    line-height: 52px;
+    padding-left: 15px;
+    padding-right: 0;
+    clear: both;
+    border-bottom: 1px solid #e7e7e7;
+}
+.login-ui-form .login-ui-form-item .telnumber
+{
+    float: left;
+    font-size: 16px;
+    margin-right: 15px;
+    height: 52px;
+    line-height: 52px;
+    padding: 0;
+    display: block;
+    position: relative;
+    width: auto;
+}
+.login-ui-form .login-ui-form-item .write-numer
+{
+    float: left;
+    font-size: 16px;
+    height: 20px;
+    background-color: #fff!important;
+    border: none;
+    padding: 16px 0 15px;
+    color: #222;
+}
+.login-ui-form .login-ui-form-item .prompt_phone
+{
+    color:red;
+    font-size: 14px;
+}
+.login-ui-form .login-ui-form-code
+{
+    height: 52px;
+    background: #fff;
+    position: relative;
+    line-height: 52px;
+    padding-left: 15px;
+    padding-right: 0;
+    clear: both;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.login-ui-form .login-ui-form-code .codenumber
+{
+    float: left;
+    font-size: 16px;
+    margin-right: 15px;
+    height: 52px;
+    line-height: 52px;
+    padding: 0;
+    display: block;
+    position: relative;
+    width: auto;
+}
+
+.login-ui-form .login-ui-form-code .write-code
+{
+    float: left;
+    font-size: 16px;
+    height: 20px;
+    background-color: #fff!important;
+    border: none;
+    padding: 16px 0 15px;
+    color: #222;
+}
+
+.login-ui-form .login-ui-form-code .get-code
+{
+    background-color: transparent;
+    font-size: 16px;
+    border: 0 none;
+    border-left: 1px solid #e7e7e7;
+    height: 52px;
+    outline: 0 none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 120px;
+    color:#4a90e2;
+}
+.login-ui-form .login-ui-form-code .disabled
+{
+    color:#98989f;
+}
+.login-ui-form .login-my-submit
+{
+    padding: 30px 15px 0;
+    clear: both;
+}
+
+.login-ui-form .login-my-submit .login-my-submit-tel
+{
+    background: #de3d96;
+    text-decoration: none!important;
+    text-align: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #ee9eca;
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    width: 100%;
+}
+
+.login-ui-form .login-my-submit .viva-footer-tips
+{
+    padding-top: 12px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #98989f;
+    clear: both;
+}
+
+.login-ui-form .login-my-submit .viva-footer-tips .my-service-vip
+{
+    color: #157efa;
+}
+
+.login-login-footer
+{
+    margin-top:60px;
+    height:120px;
+    text-align: center;
+    clear: both;
+    color: #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    border-right: 0;
+    font-size: 12px;
+    border-left: 0;
+    border-bottom: 0;
+    position: relative;
+}
+.login-login-footer .login-password-or
+{
+    position: absolute;
+    top:-10px;
+    left:50%;
+    transform: translate(-50%);
+    width:32px;
+    z-index: 1;
+    background-color: #fff;
+}
+.login-login-footer .login-bypassword
+{
+    height: 36px;
+    line-height: 36px;
+    padding: 0 14px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid #e4007f;
+    color: #e4007f;
+    margin: 13px auto;
+    font-size: 14px;
+}
+
+
+/*======================================服务条款页面===============================================*/
+.vip-service-box
+{
+    padding:0 15px;
+    font-family: Arial,Verdana,Helvetica,"microsoft yahei",sans-serif;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 22px;
+}
+.vip-service-box .vip-service-box-title
+{
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 0 15px;
+    line-height: 48px;
+    border-bottom: 1px solid #c8c7cc;
+}
+
+.vip-service-box .vip-service-box-important .vip-service-box-important-needknow
+{
+    text-indent: 26px;
+    margin: 0 0 5px;
+    font-size: 14px;
+    line-height:22px;
+}
+.vip-service-box .vip-service-box-important .vip-service-box-important-needknow b
+{
+    font-weight: bold;
+}
+.vip-service-box  .explian-service
+{
+    margin: 15px 0 8px;
+    font-size: 100%;
+    color:#000;
+}
+.vip-service-box  .explian-service .explian-service-content
+{
+    color: #585c64;
+    text-indent: 0;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+}
+.vip-service-box  .explian-service .explian-service-content .explian-service-content-first
+{
+    color:#000;
+    font-weight: bold;
+}

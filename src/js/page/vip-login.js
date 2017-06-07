@@ -14,7 +14,7 @@ $(function () {
                 var phone_val = $('.write-numer').val();
                 if (pattern.test(phone_val)) {
                     $(".prompt_phone").html("bingo");
-                    location.href = "./index.html";
+                    //location.href = "./index. html";
                     return true;
                 } else {
                     $(".prompt_phone").html("terrible");

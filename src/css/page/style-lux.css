@@ -1,0 +1,162 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+/*div{
+	display: inline-block;
+}*/
+
+
+.lux-one img{
+	width: 100%;
+	height: auto;
+}
+.lux-category{
+	width: 100%;
+	height: auto;
+}
+.lux-category img{
+	float: left;
+	width: 20%;
+	height: auto;
+}
+.lux-title img{
+	width: 100%;
+	height: auto;
+}
+.lux-title-content{
+	height: auto;
+	width: auto;
+}
+.lux-title-content .lux-discount{
+	font-size:12px ;
+	padding: 0 2%;
+	box-sizing: border-box;
+	
+	
+	
+}
+.lux-title-content .lux-fixed{
+	position: relative;
+	background: white;
+	top: -34px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	float: left;
+	opacity: 0.8;
+	width: 100%;
+	font-size:12px ;
+}
+.lux-title-content .lux-discount p{
+     float: left;
+	display: inline-block;
+	
+
+}
+.lux-title-content .lux-discount p span{
+	color: #ef69b3;
+	padding: 0 10px;
+	
+}
+.lux-title-content .lux-discount .lux-days{
+	float: right;
+	color: #b6b6b6;
+}
+.lux-title-content img{
+	width: 100%;
+	height: auto;
+}
+.lux-member img{
+	float: left;
+	width: 33.3%;
+	height: auto;
+}
+.lux-puzzle img{
+	float: left;
+	width: 25%;
+	height: auto;
+}
+.lux-bottom{
+	font-size:12px ;
+}
+.lux-bottom .lux-more{
+	text-align: center;
+	overflow: hidden;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.lux-bottom .lux-moreimg{
+	padding: 10px 0;
+	overflow: hidden;
+}
+.lux-bottom .lux-moreimg ul li{
+	float: left;
+	width: 24.6%;
+	text-align: center;
+	border-right:1px solid #cccccc ;
+	padding: 10px 0;
+}
+.lux-bottom .lux-moreimg ul li:last-of-type{
+	border-right: none;
+}
+.lux-app{
+	padding:10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-bottom:1px solid #e0e2e3 ;
+	background: #f2f4f6;
+}
+.lux-app span:first-of-type{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	background: #e5007f;
+	display: inline-block;
+	border-radius:5px ;
+	font-weight:bold ;
+	color: white;
+	text-align: center;
+}.lux-app p{
+	display: inline-block;
+	margin: 0 15px;
+}
+.lux-app span:last-of-type{
+	width: 60px;
+	height:25px;
+	border-radius: 5px;
+	border: 1px solid #e5007f;
+	display: inline-block;
+	line-height: 25px;
+	text-align: center;
+	color: #e5007f;
+}
+.lux-about{
+	background: #f2f4f6;
+	padding:10px;
+	box-sizing: border-box;
+}
+.lux-about p{
+	display: inline-block;
+}
+.lux-about p span {
+	margin: 0 10px;
+}
+.lux-about p:last-of-type{
+	float: right;
+}
+.lux-police{
+	background: #f2f4f6;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	color: #e0e2e3;
+	font-weight: bold;
+}

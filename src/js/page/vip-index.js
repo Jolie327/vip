@@ -6,11 +6,11 @@ var Swiper = require("../lib/swiper.min.js");
 
 $(function(){
 
-
     var page={
         init:function(){
             this.go();
             this.item();
+            this.dian();
         },
         go:function(){
             $(window).scroll(function(){
@@ -40,8 +40,12 @@ $(function(){
                 autoplay: 2500,
                 autoplayDisableOnInteraction: false
             });
+        },
+        dian:function(){
+                $(".index-tab li").click(function(){
+                    $(this).addClass("shou").siblings().removeClass("shou");
+        		});
         }
-
     };
     page.init();
 

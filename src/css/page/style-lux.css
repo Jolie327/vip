@@ -10,14 +10,12 @@ html,body{
 	width: 100%;
 }
 
-/*div{
-	display: inline-block;
-}*/
 
 
 .lux-one img{
 	width: 100%;
 	height: auto;
+	padding-top: 83px;
 }
 .lux-category{
 	width: 100%;
@@ -159,4 +157,94 @@ html,body{
 	box-sizing: border-box;
 	color: #e0e2e3;
 	font-weight: bold;
+}
+
+/*头部*/
+.index-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 83px;
+  background: #fbfbfa;
+}
+.index-header .icon-wei {
+  background: url("../../img/img-index/weipinhui.jpg") no-repeat;
+  background-position: center 10px;
+  background-size: 119px auto;
+}
+.index-header .index-header-tp {
+  width: 100%;
+  height: 43px;
+  background: null;
+}
+.index-header .index-header-tp .index-hr-left {
+  width: 44px;
+  height: 43px;
+  background: null;
+  float: left;
+}
+.index-header .index-header-tp .index-hr-left a {
+  display: block;
+  padding: 10px;
+}
+.index-header .index-header-tp .index-hr-left a .icon-ren {
+  background: url("../../img/img-index/ren.jpg") no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.index-header .index-header-tp .index-hr-center {
+  float: left;
+}
+.index-header .index-header-tp .index-hr-center a {
+  display: inline-block;
+}
+.index-header .index-header-tp .index-hr-right {
+  width: 44px;
+  height: 43px;
+  background: null;
+  float: right;
+}
+.index-header .index-header-tp .index-hr-right a {
+  padding: 10px;
+  display: inline-block;
+}
+.index-header .index-header-tp .index-hr-right a .icon-sou {
+  background: url("../../img/img-index/sousuo.jpg") no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.index-header .index-header-bm {
+  width: 100%;
+  height: 40px;
+  background: #39424a;
+  position: relative;
+}
+.index-header .index-header-bm .index-menu .index-tab {
+  margin-left: 10px;
+  overflow: hidden;
+}
+.index-header .index-header-bm .index-menu .index-tab .index-list {
+  float: left;
+}
+.index-header .index-header-bm .index-menu .index-tab .index-list a {
+  border-left: 1px solid #4a5259;
+  box-sizing: border-box;
+}
+.index-header .index-header-bm .index-menu .index-tab .index-list a span {
+  color: #cfd3da;
+  padding: 0  15px 0;
+  line-height: 40px;
+  display: inline-block;
+  height: 40px;
+}
+.index-header .index-header-bm .index-menu .index-tab .shou{
+  border-bottom: 2px solid #f02387; 
+}
+.index-header .index-header-bm .index-menu .index-tab .index-list a span {
+	color: #fff;
 }

@@ -8,7 +8,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');//ExtractTextPlug
 var $ = require("jquery");
 
 module.exports = {
-    entry: __dirname + "/src/js/release/img-index.js",
+    entry: __dirname + "/src/js/release/index.js",
     output: {
         path: __dirname + '/build',
         filename: "finally.js"

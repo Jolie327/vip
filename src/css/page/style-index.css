@@ -91,11 +91,12 @@
   display: inline-block;
   height: 40px;
 }
-.index-header .index-header-bm .index-menu .index-tab .index-list a .shou {
-  border-bottom: 2px solid #f02387;
-  color: #fff;
-  line-height: 40px;
-  height: 40px;
+
+.index-header .index-header-bm .index-menu .index-tab .shou{
+  border-bottom: 2px solid #f02387; 
+}
+.index-header .index-header-bm .index-menu .index-tab .index-list a span {
+	color: #fff;
 }
 .index-main {
   padding-top: 83px;

@@ -38,7 +38,7 @@ $(function () {
                             }
                         });
 
-                        var intDiff = parseInt(5); //倒计时总秒数量
+                        var intDiff = parseInt(59); //倒计时总秒数量
                         function timer(intDiff) {
                             var timer;
                             var code = "重新获取验证码";
